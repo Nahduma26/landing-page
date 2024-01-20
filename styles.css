@@ -11,13 +11,16 @@ width: 100%;
   gap: 2em;
 }
 .section-two {
-    padding-top: 16px;
+    padding-top: 48px;
     padding-left: 48px;
     padding-right: 48px;
     padding-bottom: 48px;
 }
 .cards-header {
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .cards {
@@ -103,4 +106,30 @@ button {
     border: none;
     border-radius: 5px;
     padding: 7px 25px;
+  }
+
+  .section-three {
+    display: flex;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+  }
+
+  .quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+
+  .quote-author {
+    align-self: center;
   }
